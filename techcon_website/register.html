@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register for TechCon 2024</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 1em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    nav li a:hover {
+      color: #007BFF;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      padding: 0.5em;
+      font-size: 1em;
+      width: 100%;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    button[type="submit"] {
+      padding: 0.75em;
+      font-size: 1em;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: fit-content;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      margin-top: 2em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Register for TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <div>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <div>
+        <label for="confirm-password">Confirm Password:</label><br>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+      </div>
+
+      <div>
+        <label>
+          <input type="checkbox" id="terms" name="terms" required />
+          I agree to the terms and conditions
+        </label>
+      </div>
+
+      <button type="submit">Register Now</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>copyright 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
