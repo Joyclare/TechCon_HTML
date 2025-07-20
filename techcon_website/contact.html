@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - TechCon 2024</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 10px 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: #333;
+    }
+
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+      background-color: #111;
+    }
+
+    /* Main content */
+    main {
+      padding: 20px;
+    }
+
+    .contact-info {
+      margin-bottom: 30px;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
+
+    /* Contact Form */
+    form {
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .social-links a {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Email us at: <a href="mailto:email@example.com">email@example.com</a></p>
+
+      <div class="social-links">
+        <p>Follow us on:</p>
+        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+    <section class="map-container">
+      <h2>Our Location</h2>
+      <iframe 
+  title="Google Map showing the location of KICC, Nairobi"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.738130774897!2d36.81724461533293!3d-1.2920657990569898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10b07fd3c41f%3A0x8f8eebc9c1e3a8a5!2sKICC%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1627899617564!5m2!1sen!2ske" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Us Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
